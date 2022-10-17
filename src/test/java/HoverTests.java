@@ -26,10 +26,20 @@ public class HoverTests {
 
     @Test
     public void hoverTest() {
-        driver.findElement(By.xpath("//*[@id='content']"));
-        Actions action = new Actions(driver);
+        WebElement firstAvatar = driver.findElement(By.xpath("//*[@id='content']/div/div[1]"));
+        WebElement secondAvatar = driver.findElement(By.xpath("//*[@id='content']/div/div[2]"));
+        WebElement thirdAvatar = driver.findElement(By.xpath("//*[@id='content']/div/div[3]"));
 
-        sleep();
+        Actions action = new Actions(driver);
+        action.moveToElement(firstAvatar).perform();
+
+        WebElement firstCaption = driver.findElement(By.xpath("//*[@id='content']/div/div[1]/div/h5"));
+        WebElement secondCaption = driver.findElement(By.xpath("//*[@id='content']/div/div[2]/div/h5"));
+        WebElement thirdCaption = driver.findElement(By.xpath("//*[@id='content']/div/div[3]/div/h5"));
+
+        assertEquals(firstCaption.getText(), "name: user1");
+        assertEquals(secondCaption.getText(), "");
+        assertEquals(thirdCaption.getText(), "");
     }
 
     private void sleep() {
