@@ -23,7 +23,6 @@ public class FailedFishCheckout extends TestBase{
         ShoppingCartPage shoppingCartPage = new ShoppingCartPage();
         shoppingCartPage.clickOnProceedToCheckoutButton();
 
-//        loginPage = new LoginPage(driver);
         String warningMessageTemplate = "You must sign on before attempting to check out. Please sign on and try checking out again.";
         String warningMessage = loginPage.getWarningMessage();
         assertEquals(warningMessage, warningMessageTemplate);

@@ -4,29 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddbf6440-77bc-490b-a45d-c18cb7d7c9b3" name="Changes" comment="Waits">
-      <change afterPath="$PROJECT_DIR$/src/test/java/driver/manager/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/driver/manager/DriverUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/AngelfishListPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/FishListPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/FooterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/LandingPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/ShoppingCartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/TopMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/FailedFishCheckout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/FailedLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/PositiveLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ddbf6440-77bc-490b-a45d-c18cb7d7c9b3" name="Changes" comment="Page object, singleton, factory">
+      <change afterPath="$PROJECT_DIR$/src/test/java/waits/WaitForElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CheckBoxesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/CheckBoxesTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DropDownTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/DropDownTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ExplicitWaitsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/ExplicitWaitsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HoverTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/HoverTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PetStoreTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TemplateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/TemplateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebElementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/WebElementsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/driver/manager/DriverUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/manager/DriverUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/TopMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/TopMenuPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666033743524</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Page object, singleton, factory">
+      <created>1667676114712</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667676114712</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +179,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Waits" />
-    <option name="LAST_COMMIT_MESSAGE" value="Waits" />
+    <MESSAGE value="Page object, singleton, factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Page object, singleton, factory" />
   </component>
 </project>
