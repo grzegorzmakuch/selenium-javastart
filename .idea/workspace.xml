@@ -5,9 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddbf6440-77bc-490b-a45d-c18cb7d7c9b3" name="Changes" comment="Waits">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PetStoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/driver/manager/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/driver/manager/DriverUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/AngelfishListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/FishListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/FooterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/LandingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/ShoppingCartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/TopMenuPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/FailedFishCheckout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/FailedLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/PositiveLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ExplicitWaitsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExplicitWaitsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckBoxesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/CheckBoxesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DropDownTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/DropDownTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExplicitWaitsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/ExplicitWaitsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HoverTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/HoverTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PetStoreTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TemplateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/TemplateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebElementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/WebElementsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +64,29 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PetStoreTest.firstLoginTest">
-    <configuration name="DropDownTests.dropDownTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PositiveLoginTest.asUserLoginUsingValidLoginAndPassword">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FailedFishCheckout.tryToCheckoutElementWithoutLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-javastart" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DropDownTests" />
-      <option name="METHOD_NAME" value="dropDownTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FailedFishCheckout" />
+      <option name="METHOD_NAME" value="tryToCheckoutElementWithoutLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -58,22 +94,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExplicitWaitsTests.waitForDisappearingElement" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FailedLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-javastart" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExplicitWaitsTests" />
-      <option name="METHOD_NAME" value="waitForDisappearingElement" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HoverTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-javastart" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HoverTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FailedLoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -81,11 +105,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoverTests.hoverTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FailedLoginTest.asUserTryToLoginWithIncorrectNameAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-javastart" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HoverTests" />
-      <option name="METHOD_NAME" value="hoverTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.FailedLoginTest" />
+      <option name="METHOD_NAME" value="asUserTryToLoginWithIncorrectNameAndPassword" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -93,11 +117,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PetStoreTest.firstLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FailedLoginTest.firstLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-javastart" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PetStoreTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.FailedLoginTest" />
       <option name="METHOD_NAME" value="firstLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PositiveLoginTest.asUserLoginUsingValidLoginAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-javastart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PositiveLoginTest" />
+      <option name="METHOD_NAME" value="asUserLoginUsingValidLoginAndPassword" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -107,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PetStoreTest.firstLoginTest" />
-        <item itemvalue="TestNG.ExplicitWaitsTests.waitForDisappearingElement" />
-        <item itemvalue="TestNG.HoverTests.hoverTest" />
-        <item itemvalue="TestNG.HoverTests" />
-        <item itemvalue="TestNG.DropDownTests.dropDownTest" />
+        <item itemvalue="TestNG.PositiveLoginTest.asUserLoginUsingValidLoginAndPassword" />
+        <item itemvalue="TestNG.FailedLoginTest.asUserTryToLoginWithIncorrectNameAndPassword" />
+        <item itemvalue="TestNG.FailedFishCheckout.tryToCheckoutElementWithoutLogin" />
+        <item itemvalue="TestNG.FailedLoginTest" />
+        <item itemvalue="TestNG.FailedLoginTest.firstLoginTest" />
       </list>
     </recent_temporary>
   </component>
