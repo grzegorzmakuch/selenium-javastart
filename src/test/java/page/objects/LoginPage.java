@@ -30,22 +30,25 @@ public class LoginPage {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
-    public void typeIntoUserNameField(String userName) {
+    public LoginPage typeIntoUserNameField(String userName) {
         WaitForElement.waitUntilElementIsVisible(userNameField);
         userNameField.clear();
         userNameField.sendKeys(userName);
         logger.info("Typed into User Name field {}", userName);
+        return this;
     }
 
-    public void typeIntoPasswordField(String password) {
+    public LoginPage typeIntoPasswordField(String password) {
         passwordField.clear();
         passwordField.sendKeys(password);
         logger.info("Typed into Password field {}", password);
+        return this;
     }
 
-    public void clickOnLoginButton() {
+    public FooterPage clickOnLoginButton() {
         signOnButton.click();
         logger.info("Clicked on Login button");
+        return new FooterPage();
     }
 
     public String getWarningMessage() {
@@ -55,7 +58,8 @@ public class LoginPage {
         return warningText;
     }
 
-    public void clickOnFishElement() {
+    public FishListPage clickOnFishElement() {
         fishLink.click();
+        return new FishListPage();
     }
 }

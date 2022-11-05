@@ -12,16 +12,11 @@ public class FailedFishCheckout extends TestBase{
         landingPage.clickOnEnterStoreLink();
 
         LoginPage loginPage = new LoginPage();
-        loginPage.clickOnFishElement();
-
-        FishListPage fishListPage = new FishListPage();
-        fishListPage.clickOnAngelfishLink();
-
-        AngelfishListPage angelfishListPage = new AngelfishListPage();
-        angelfishListPage.clickAddToCartButton();
-
-        ShoppingCartPage shoppingCartPage = new ShoppingCartPage();
-        shoppingCartPage.clickOnProceedToCheckoutButton();
+        loginPage
+                .clickOnFishElement()
+                .clickOnAngelfishLink()
+                .clickAddToCartButton()
+                .clickOnProceedToCheckoutButton();
 
         String warningMessageTemplate = "You must sign on before attempting to check out. Please sign on and try checking out again.";
         String warningMessage = loginPage.getWarningMessage();

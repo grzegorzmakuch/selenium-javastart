@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddbf6440-77bc-490b-a45d-c18cb7d7c9b3" name="Changes" comment="Refactor with explicit waits">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+    <list default="true" id="ddbf6440-77bc-490b-a45d-c18cb7d7c9b3" name="Changes" comment="Add Logger">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/FooterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/FooterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/AngelfishListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/AngelfishListPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/FishListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/FishListPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/LandingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/TopMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/TopMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/FailedFishCheckout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/FailedFishCheckout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/FailedLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/FailedLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PositiveLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PositiveLoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PositiveLoginTest">
+  <component name="RunManager" selected="TestNG.FailedLoginTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,9 +140,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PositiveLoginTest" />
         <item itemvalue="TestNG.FailedLoginTest" />
         <item itemvalue="TestNG.FailedFishCheckout" />
+        <item itemvalue="TestNG.PositiveLoginTest" />
         <item itemvalue="TestNG.PositiveLoginTest.asUserLoginUsingValidLoginAndPassword" />
         <item itemvalue="TestNG.FailedLoginTest.asUserTryToLoginWithIncorrectNameAndPassword" />
       </list>
@@ -176,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667677521146</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Logger">
+      <created>1667679280661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667679280661</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +203,7 @@
     <MESSAGE value="Waits" />
     <MESSAGE value="Page object, singleton, factory" />
     <MESSAGE value="Refactor with explicit waits" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor with explicit waits" />
+    <MESSAGE value="Add Logger" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Logger" />
   </component>
 </project>

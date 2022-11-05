@@ -13,7 +13,8 @@ public class AngelfishListPage {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
-    public void clickAddToCartButton() {
+    public ShoppingCartPage clickAddToCartButton() {
         addToCartFirstElementButton.click();
+        return new ShoppingCartPage();
     }
 }
