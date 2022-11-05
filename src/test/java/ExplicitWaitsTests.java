@@ -28,13 +28,22 @@ public class ExplicitWaitsTests {
         assertTrue(checkbox.isDisplayed());
         assertFalse(checkbox.isSelected());
 
-        WebElement removeButton = driver.findElement(By.cssSelector("[onclick='swapCheckbox()']"));
-        removeButton.click();
+        WebElement removeAddButton = driver.findElement(By.cssSelector("[onclick='swapCheckbox()']"));
+        removeAddButton.click();
 
         WebDriverWait webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(15));
         webDriverWait.until(ExpectedConditions.invisibilityOf(checkbox));
 
-//        assertFalse(checkbox.isDisplayed());
+        removeAddButton.click();
+        webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.id("checkbox")));
+
+        assertTrue(checkbox.isDisplayed());
+        assertFalse(checkbox.isSelected());
+    }
+
+    @Test
+    public void waitForPresenceOfTheElement() {
+
     }
 
     @AfterTest

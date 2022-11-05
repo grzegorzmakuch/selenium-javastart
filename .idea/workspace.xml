@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddbf6440-77bc-490b-a45d-c18cb7d7c9b3" name="Changes" comment="Webelements and methods">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExplicitWaitsTests.java" afterDir="false" />
+    <list default="true" id="ddbf6440-77bc-490b-a45d-c18cb7d7c9b3" name="Changes" comment="Waits">
+      <change afterPath="$PROJECT_DIR$/src/test/java/PetStoreTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HoverTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HoverTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExplicitWaitsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExplicitWaitsTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +45,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ExplicitWaitsTests.waitForDisappearingElement">
-    <configuration name="DropDownTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-javastart" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DropDownTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.PetStoreTest.firstLoginTest">
     <configuration name="DropDownTests.dropDownTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-javastart" />
       <option name="PACKAGE_NAME" value="" />
@@ -104,13 +93,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PetStoreTest.firstLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-javastart" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PetStoreTest" />
+      <option name="METHOD_NAME" value="firstLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PetStoreTest.firstLoginTest" />
         <item itemvalue="TestNG.ExplicitWaitsTests.waitForDisappearingElement" />
         <item itemvalue="TestNG.HoverTests.hoverTest" />
         <item itemvalue="TestNG.HoverTests" />
         <item itemvalue="TestNG.DropDownTests.dropDownTest" />
-        <item itemvalue="TestNG.DropDownTests" />
       </list>
     </recent_temporary>
   </component>
@@ -123,6 +124,14 @@
       <option name="presentableId" value="Default" />
       <updated>1665387813293</updated>
     </task>
+    <task id="LOCAL-00001" summary="Waits">
+      <created>1666033743524</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666033743524</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,5 +144,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Waits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Waits" />
   </component>
 </project>
