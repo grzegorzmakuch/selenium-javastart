@@ -1,6 +1,5 @@
 package driver.manager;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -12,7 +11,8 @@ public class DriverManager {
 
     public static WebDriver getWebDriver() {
         if(driver == null) {
-            WebDriverManager.chromedriver().setup();
+//            WebDriverManager.chromedriver().setup();
+            System.setProperty("webdriver.chrome.driver", "chromedriver");
             driver = new ChromeDriver();
         }
         return driver;
