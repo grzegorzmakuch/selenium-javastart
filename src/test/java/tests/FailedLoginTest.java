@@ -1,25 +1,24 @@
 package tests;
 
+import driver.manager.DriverUtils;
 import org.testng.annotations.Test;
-import page.objects.LandingPage;
 import page.objects.LoginPage;
-import page.objects.TopMenuPage;
 
+import static Navigation.ApplicationURLs.LOGIN_URL;
 import static org.testng.Assert.assertEquals;
 
 public class FailedLoginTest extends TestBase {
 
     @Test
     public void asUserTryToLoginWithIncorrectNameAndPassword() {
-        LandingPage landingPage = new LandingPage();
-        landingPage
-                .clickOnEnterStoreLink()
-                .clickOnSignInLink()
-                .typeIntoUserNameField("nonExistingContact")
-                .typeIntoPasswordField("invalidPassword")
-                .clickOnLoginButton();
+        DriverUtils.navigateToPage(LOGIN_URL);
 
         LoginPage loginPage = new LoginPage();
+        loginPage
+                .typeIntoUserNameField("notExistingLogin")
+                .typeIntoPasswordField("notExistingPassword")
+                .clickOnLoginButton();
+
         String warningMessage = loginPage.getWarningMessage();
         assertEquals(warningMessage, "Invalid username or password. Signon failed.");
     }

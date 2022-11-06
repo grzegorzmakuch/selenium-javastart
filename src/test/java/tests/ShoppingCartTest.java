@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import page.objects.*;
 import static org.testng.Assert.*;
 
-public class FailedFishCheckout extends TestBase{
+public class ShoppingCartTest extends TestBase{
 
     @Test
     public void tryToCheckoutElementWithoutLogin() {

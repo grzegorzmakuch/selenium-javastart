@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddbf6440-77bc-490b-a45d-c18cb7d7c9b3" name="Changes" comment="Webelements and methods">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Navigation/ApplicationURLs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/AngelfishListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/AngelfishListPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/FishListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/FishListPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/TopMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/TopMenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/FailedFishCheckout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/FailedFishCheckout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/FailedLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/FailedLoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/PositiveLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PositiveLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +48,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FailedLoginTest.asUserTryToLoginWithIncorrectNameAndPassword">
+  <component name="RunManager" selected="TestNG.PositiveLoginTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -62,23 +56,6 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FailedFishCheckout" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-javastart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.FailedFishCheckout" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebElementsTest.dropDownTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PositiveLoginTest.asUserLoginUsingValidLoginAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-javastart" />
       <extension name="coverage">
         <pattern>
@@ -153,13 +130,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShoppingCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-javastart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ShoppingCartTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FailedLoginTest.asUserTryToLoginWithIncorrectNameAndPassword" />
+        <item itemvalue="TestNG.PositiveLoginTest" />
         <item itemvalue="TestNG.FailedLoginTest" />
-        <item itemvalue="TestNG.FailedFishCheckout" />
-        <item itemvalue="TestNG.WebElementsTest.dropDownTest" />
-        <item itemvalue="TestNG.HoverTests.hoverTest" />
+        <item itemvalue="TestNG.ShoppingCartTest" />
+        <item itemvalue="TestNG.FailedLoginTest.asUserTryToLoginWithIncorrectNameAndPassword" />
+        <item itemvalue="TestNG.PositiveLoginTest.asUserLoginUsingValidLoginAndPassword" />
       </list>
     </recent_temporary>
   </component>
