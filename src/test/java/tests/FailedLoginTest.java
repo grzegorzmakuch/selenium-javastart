@@ -15,7 +15,7 @@ public class FailedLoginTest extends TestBase {
         landingPage
                 .clickOnEnterStoreLink()
                 .clickOnSignInLink()
-                .typeIntoPasswordField("nonExistingContact")
+                .typeIntoUserNameField("nonExistingContact")
                 .typeIntoPasswordField("invalidPassword")
                 .clickOnLoginButton();
 
